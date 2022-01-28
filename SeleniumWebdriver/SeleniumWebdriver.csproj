@@ -13,4 +13,10 @@
     <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="PageObjectPattern\config\" />
+    <Folder Include="PageObjectPattern\tests\" />
+    <Folder Include="PageObjectPattern\pages\" />
+  </ItemGroup>
+
 </Project>
