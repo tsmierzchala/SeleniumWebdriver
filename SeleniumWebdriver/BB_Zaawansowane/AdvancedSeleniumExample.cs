@@ -76,7 +76,6 @@ namespace SeleniumWebdriver.BB_Zaawansowane
             Assert.AreEqual(4, tableRows.Count);
         }
 
-
         [Test]
         public void TestMouseOverDiv()
         {
@@ -125,6 +124,7 @@ namespace SeleniumWebdriver.BB_Zaawansowane
             var buttonMessage = driver.FindElement(By.Id("buttonmessage"));
             StringAssert.AreEqualIgnoringCase(buttonMessage.Text, "All buttons clicked");
         }
+
 
         [TearDown]
         public void TearDown()
